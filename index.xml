@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GiBBS</title>
+    <link>http://gibbslab.github.io/</link>
+    <description>Recent content on GiBBS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Apr 2020 19:05:53 -0500</lastBuildDate>
+    
+	<atom:link href="http://gibbslab.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/posts/thispost/</link>
+      <pubDate>Sat, 11 Apr 2020 19:05:53 -0500</pubDate>
+      
+      <guid>http://gibbslab.github.io/posts/thispost/</guid>
+      <description>HOLAAAAA!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gibbslab.github.io/about/</guid>
+      <description>About us The Bioinformatics and Systems Biology group (GiBBS) is physically located at National University of Colombia in Bogotá, Colombia (South America). Our research is focused on the reconstruction and analysis of biological networks into three main areas: Computational Modeling, Machine Learning in Biological Systems and Statistical Genomics.
+Computational Modeling Coordinated by professor Andrés Pinzón Ph.D. Institute for Genetics, National University of Colombia. Biologist specialized in the application and development of Systems biology and Bioinformatics methos for the study of biological networks.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/covid19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gibbslab.github.io/covid19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/gibbslab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gibbslab.github.io/gibbslab/</guid>
+      <description>GiBBS Laboratory GiBBS computational laboratory is located at Institute for Genetics, National University of Colombia.
+Our lab consists of various desktop machines, an intermediate capacity server (100GB RAM, 27 CPU cores) and a hyper convergent DELL VRTX cluster solution with the following overall characteristics:
+ Four power Edge M640 blade servers. RAM: 2.8 TB Storage: 120 TB 280 CPU cores Xeon Gold 2.6 GhZ  Most Admin tasks are supported by Javier Duque.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gibbslab.github.io/publications/</guid>
+      <description>Publications  Daniel Osorio, Andrés Pinzón, Cynthia Martín-Jiménez, George E. Barreto4 and Janneth González. Multiple Pathways Involved in Palmitic Acid-Induced Toxicity: A System Biology Approach. Front. Neurosci., 2020. doi.org/10.3389/fnins.2019.01410 Kelly Botero, Silvia Restrepo and Andres Pinzon. A genome-scale metabolic model of potato late blight suggests a photosynthesis suppression mechanism. BMC Genomics 2018, 19(Suppl8):863. 2018. Pinzon W, Vega H, Gonzalez J and Pinzon A. Mathematical Framework Behind the Reconstruction and Analysis of Genome Scale Metabolic Models.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://gibbslab.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gibbslab.github.io/teaching/</guid>
+      <description>Teaching The following courses are instructed by GiBBS active members:
+ Bioinformatics for Omic Science by Andrés Pinzón (2027081) . Systems Biology of Metabolism by Andrés Pinzón (2026806). Statistical Genomics by Liliana López. Introduction to Machine Learning by Juan D. García.  </description>
+    </item>
+    
+  </channel>
+</rss>
