@@ -3,51 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.com/posts/thispost/</loc>
+    <loc>http://gibbslab.github.io/posts/thispost/</loc>
     <lastmod>2020-04-11T19:05:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://gibbslab.github.io/</loc>
     <lastmod>2020-04-11T19:05:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/posts/</loc>
+    <loc>http://gibbslab.github.io/posts/</loc>
     <lastmod>2020-04-11T19:05:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.com/about/</loc>
+    <loc>http://gibbslab.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/covid19/</loc>
+    <loc>http://gibbslab.github.io/covid19/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/gibbslab/</loc>
+    <loc>http://gibbslab.github.io/gibbslab/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/publications/</loc>
+    <loc>http://gibbslab.github.io/publications/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/teaching/</loc>
+    <loc>http://gibbslab.github.io/teaching/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/</loc>
+    <loc>http://gibbslab.github.io/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.com/tags/</loc>
+    <loc>http://gibbslab.github.io/tags/</loc>
   </url>
   
 </urlset>
