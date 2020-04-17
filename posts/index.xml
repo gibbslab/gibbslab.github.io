@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on GiBBS</title>
-    <link>./posts/</link>
+    <link>https://gibbslab.github.io/posts/</link>
     <description>Recent content in Posts on GiBBS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 11 Apr 2020 19:05:53 -0500</lastBuildDate>
     
-	<atom:link href="./posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gibbslab.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>./posts/thispost/</link>
+      <link>https://gibbslab.github.io/posts/thispost/</link>
       <pubDate>Sat, 11 Apr 2020 19:05:53 -0500</pubDate>
       
-      <guid>./posts/thispost/</guid>
+      <guid>https://gibbslab.github.io/posts/thispost/</guid>
       <description>HOLAAAAA!</description>
     </item>
     
