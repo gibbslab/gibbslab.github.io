@@ -5,7 +5,7 @@
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>Bases De Datos Metabolismo</title>
         
         <style>
 
@@ -85,7 +85,7 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#"></a>
+                    <a class="navbar-brand visible-xs" href="#">Bases De Datos Metabolismo</a>
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -131,23 +131,67 @@
 <main>
 
     <div>
-        <h2></h2>
+        <h2>Bases De Datos Metabolismo</h2>
         <h5></h5>
         
 
     </div>
 
-    <div align="start" class="content"><h1 id="gibbs-laboratory">GiBBS Laboratory</h1>
-<p>GiBBS computational laboratory is located at Institute for Genetics, National University of Colombia.</p>
-<p>Our lab consists of various desktop machines, an intermediate capacity server (100GB RAM, 27 CPU cores)  and a hyper convergent DELL VRTX cluster solution with the following overall characteristics:</p>
-<ul>
-<li>Four power Edge M640 blade servers.</li>
-<li>RAM: 2.8 TB</li>
-<li>Storage: 120 TB</li>
-<li>280 CPU cores Xeon Gold 2.6 GhZ</li>
-</ul>
-<p>Most Admin tasks are supported by Javier Duque.
-Email: <a href="mailto:jaduquec@unal.edu.co">jaduquec@unal.edu.co</a></p>
+    <div align="start" class="content"><p>Las bases de datos aca listadas son aquellas que estan relacionadas con la reconstrucción de modelos metabólicos a escala genómica, no se tienen en cuenta bases de datos como KEGG o MEtacyc.</p>
+<h3 id="metabolic-atlas">Metabolic Atlas</h3>
+<p><a href="https://metabolicatlas.org/about">https://metabolicatlas.org/about</a></p>
+<blockquote>
+<p>Metabolic Atlas is a freely available resource containing detailed information about a set of open-source GEMs, specifically Human1 and Yeast8. These are two reference models containing all possible reactions that could occur in human, and yeast, respectively.</p>
+</blockquote>
+<p><a href="https://metabolicatlas.org/api/">Enlace al API</a></p>
+<p>Se puede descargar toda la base de datos desde el API (formato JSON), ejemplo:</p>
+<pre><code> {
+ 
+    &quot;id&quot;: &quot;12dgr120_s&quot;,
+    &quot;name&quot;: &quot;1,2-Diacyl-Sn-Glycerol (Didodecanoyl, N-C12:0)&quot;,
+    &quot;alt_name&quot;: null,
+    &quot;aliases&quot;: null,
+    &quot;description&quot;: null,
+    &quot;function&quot;: null,
+    &quot;formula&quot;: &quot;C27H52O5&quot;,
+    &quot;charge&quot;: 0,
+    &quot;inchi&quot;: null,
+    &quot;compartment&quot;: &quot;Extracellular&quot;,
+    &quot;kegg_id&quot;: null,
+    &quot;kegg_link&quot;: null,
+    &quot;bigg_id&quot;: &quot;12dgr120_e&quot;,
+    &quot;bigg_link&quot;: &quot;https://identifiers.org/bigg.metabolite:12dgr120_e&quot;,
+    &quot;hmdb_id&quot;: null,
+    &quot;hmdb_link&quot;: null,
+    &quot;chebi_id&quot;: null,
+    &quot;chebi_link&quot;: null,
+    &quot;pubchem_id&quot;: null,
+    &quot;pubchem_link&quot;: null,
+    &quot;lipidmaps_id&quot;: null,
+    &quot;lipidmaps_link&quot;: null,
+    &quot;metanetx_id&quot;: &quot;MNXM4939&quot;,
+    &quot;metanetx_link&quot;: &quot;https://identifiers.org/metanetx.chemical:MNXM4939&quot;
+    
+  }
+</code></pre><h3 id="human-metabolome-database">Human Metabolome Database</h3>
+<p><a href="http://www.hmdb.ca/about">http://www.hmdb.ca/about</a></p>
+<blockquote>
+<p>The Human Metabolome Database (HMDB) is a freely available electronic database containing detailed information about small molecule metabolites found in the human body. It is intended to be used for applications in metabolomics, clinical chemistry, biomarker discovery and general education. The database is designed to contain or link three kinds of data: 1) chemical data, 2) clinical data, and 3) molecular biology/biochemistry data. The database contains 114,021 metabolite entries[&hellip;]</p>
+</blockquote>
+<p>API: NO TIENEN UN API oficial, sin embargo existe una librería en R para consultar la base de datos:  <a href="https://rdrr.io/bioc/hmdbQuery/">https://rdrr.io/bioc/hmdbQuery/</a></p>
+<p>Comments: Se puede descargar toda la base de datos en XML (4GB) y otros formatos: <a href="http://www.hmdb.ca/downloads">http://www.hmdb.ca/downloads</a></p>
+<p>Tiene muchisima informacion bioquimica, INCHI, SMILES etc. pero no estan las entradas enlazadas a bases de datos de GEM.</p>
+<h3 id="bigg-modelsmetanetx">BiGG Models/Metanetx</h3>
+<p><a href="http://bigg.ucsd.edu">http://bigg.ucsd.edu</a></p>
+<blockquote>
+<p>BiGG Models is a knowledgebase of genome-scale metabolic network reconstructions. BiGG Models integrates more than 70 published genome-scale metabolic networks into a single database with a set of standardized identifiers called BiGG IDs. Genes in the BiGG models are mapped to NCBI genome annotations, and metabolites are linked to many external databases (KEGG, PubChem, and many more). For details about updates to the BiGG Models website and database, see the updates page and the GitHub repository.</p>
+</blockquote>
+<p>API: Tienen un buen api desde el que se pueden hacer diversas consultas: <a href="http://bigg.ucsd.edu/data_access">http://bigg.ucsd.edu/data_access</a></p>
+<p>Es posible descargar también una tabla completa de metabolitos: <a href="http://bigg.ucsd.edu/static/namespace/bigg_models_metabolites.txt">http://bigg.ucsd.edu/static/namespace/bigg_models_metabolites.txt</a>
+o de reacciones o un modelo global en JSON que tiene mapeos a CHEBI, BioCyc KEGG y MetaNetX.</p>
+<p>Todos los enlaces y referencias cruzadas vienen de Metanetx:
+<a href="https://www.metanetx.org/mnxdoc/mnxref.html">https://www.metanetx.org/mnxdoc/mnxref.html</a>
+Comments: clave leerse este paper para entender como funciona el asunto: <a href="https://academic.oup.com/bib/article/15/1/123/186427">Reconciliation of metabolites and biochemical reactions for metabolic networks</a></p>
 </div>
 
 </main>
