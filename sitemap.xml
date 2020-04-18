@@ -3,12 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gibbslab.github.io/posts/bases-de-datos-metabolismo/</loc>
+    <loc>https://gibbslab.github.io/</loc>
     <lastmod>2020-04-17T17:54:43-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gibbslab.github.io/</loc>
+    <loc>https://gibbslab.github.io/posts/bases-de-datos-metabolismo/</loc>
     <lastmod>2020-04-17T17:54:43-05:00</lastmod>
   </url>
   
@@ -19,6 +20,11 @@
   
   <url>
     <loc>https://gibbslab.github.io/about/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://gibbslab.github.io/contact/</loc>
     <priority>0</priority>
   </url>
   
